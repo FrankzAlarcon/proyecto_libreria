@@ -3,6 +3,7 @@
 
 
 import networkx as nx  # Importación del paquete NetworkX
+#--------------- IMPORTANTEEE **************************
 #pip install matplotlib en el cmd con Permiso de Administrador
 #pip install scipy
 import matplotlib.pyplot as plt  # Importación paquete Matplotlib con el módulo pyplot
@@ -25,6 +26,6 @@ print(len(G.nodes))
 print(len(G.edges))
 print(G.nodes)
 print(G.edges)
-nx.draw_kamada_kawai(G, node_size=4, width=2, with_labels=True)
+nx.draw_kamada_kawai(G, node_size=3, width=0.9, with_labels=True)
 plt.axis("equal")  
 plt.show()  
